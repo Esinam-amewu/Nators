@@ -1,0 +1,48 @@
+*{ margin: 0;
+   padding: 0;
+}
+
+body{
+position: relative;
+}
+
+.header{
+    background-image: linear-gradient(to left bottom,rgba(60, 60, 187, 0.541), rgba(69, 143, 100, 0.273)), url("./Images/mushroons.jpg") ;
+    background-size: cover;
+    background-position: top;
+    height: 100vh;
+}
+
+.logo{
+    height: 10ptx;
+}
+.logo-box{
+    margin-top: 3px;
+    margin-left: 20px;
+    position: absolute;
+}
+
+.Content-box {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(2, 6, 10);
+    font-size: larger;
+
+}
+
+.button {
+    position:absolute;
+    display: flex;
+    left: 50%;
+    transform: translate(-50%);
+   border-radius: 100px;
+   background-color: rgba(76, 91, 226, 0.596); 
+  padding: 25px 60px;
+  font-style: oblique;
+  color: rgba(10, 23, 35, 0.738);
+  justify-content: center;
+  align-items: center;
+ margin-top: 20px;
+}
